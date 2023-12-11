@@ -194,7 +194,7 @@ ul {
 }
 
 .hero-section {
-	max-width: 1153px;
+	width: 1153px;
 	height: 514px;
 	margin: 0 auto;
 }
@@ -213,7 +213,6 @@ ul {
 	height: 100%;
 	object-fit: cover;
 	object-position: center center;
-	margin: 0 auto;
 }
 /* Update-section */
 .update-section {
@@ -452,12 +451,12 @@ ul {
 /*............................1200px....................................... */
 @media screen and (max-width: 1200px) {
 	.wrapper {
-		margin-left: 10px;
+		margin-left: 30px;
 	}
 	.header__container {
 		display: flex;
 		justify-content: center;
-		width: 550px;
+		width: 600px;
 		margin-left: 12px;
 	}
 
@@ -518,7 +517,7 @@ ul {
 		width: 220px;
 	}
 	.hero-section {
-		width: 550px;
+		width: 600px;
 		margin-left: 12px;
 	}
 
@@ -537,7 +536,7 @@ ul {
 
 	.main-container {
 		width: 550px;
-		margin-left: 10px;
+		margin-left: 30px;
 	}
 
 	.title-section__title {
@@ -651,7 +650,7 @@ ul {
 
 	.hero-section {
 		width: 450px;
-		margin-left: 150px;
+		margin-left: 170px;
 		margin-top: -40px;
 	}
 
@@ -677,7 +676,7 @@ ul {
 
 	.main-container {
 		width: 450px;
-		margin-left: 160px;
+		margin-left: 180px;
 	}
 	.title-section__title {
 		text-align: left;

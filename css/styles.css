@@ -518,9 +518,9 @@ ul {
 		margin-left: 12px;
 	}
 
-	.hero-section__baloons {
+	.hero-section__balloons {
 		margin: 0 auto;
-		margin-right: 150px;
+		/* margin-right: 150px; */
 	}
 
 	.update-section {
@@ -650,6 +650,7 @@ ul {
 		width: 650px;
 		display: flex;
 		justify-items: center;
+		margin-left: 170px;
 	}
 
 	.footer__address {

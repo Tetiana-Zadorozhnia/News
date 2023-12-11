@@ -451,7 +451,7 @@ ul {
 
 /*............................1200px....................................... */
 @media screen and (max-width: 1200px) {
-	.wrapper{
+	.wrapper {
 		margin-left: 10px;
 	}
 	.header__container {
@@ -464,7 +464,7 @@ ul {
 	.header__logo {
 		width: 220px;
 	}
-   .header__logo-link{
+	.header__logo-link {
 		padding-right: 20px;
 	}
 
@@ -484,7 +484,7 @@ ul {
 		display: flex;
 		flex-direction: column;
 		width: 170px;
-	padding-right: 15px;
+		padding-right: 15px;
 	}
 
 	.header__menu {
@@ -527,7 +527,7 @@ ul {
 	}
 
 	.update-section {
-	 	width: 550px;
+		width: 550px;
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
@@ -586,16 +586,13 @@ ul {
 	.footer__address {
 		margin-left: 150px;
 	}
-	.footer__title{
+	.footer__title {
 		font-size: 40px;
 	}
-	.footer__link{
-font-size: 14px;
+	.footer__link {
+		font-size: 14px;
 	}
 
-	.footer__social-icons {
-		/* margin-left: -70px; */
-	}
 	.footer__logo {
 		margin-left: -1000px;
 		padding-bottom: 40px;
@@ -603,14 +600,13 @@ font-size: 14px;
 }
 /*......................768px........................................ */
 @media screen and (max-width: 768px) {
-	.wrapper{
+	.wrapper {
 		margin-left: -100px;
 	}
 	.header__container {
 		display: flex;
 		flex-direction: column;
 		margin-left: 100px;
-		/* margin: 0 auto; */
 	}
 
 	.header__logo {
@@ -637,7 +633,7 @@ font-size: 14px;
 	}
 
 	.header__button {
-			width: 450px;
+		width: 450px;
 	}
 
 	.header__burger {
@@ -654,92 +650,91 @@ font-size: 14px;
 	}
 
 	.hero-section {
-	   width: 450px;
+		width: 450px;
 		margin-left: 150px;
 		margin-top: -40px;
 	}
 
-		.update-section{
-			margin-top: -330px;
+	.update-section {
+		margin-top: -330px;
+	}
+	.update-section__date {
+		display: flex;
+		align-items: center;
+		padding-left: 250px;
+	}
+	.update-section__system {
+		margin-right: 10px;
+		height: 15px;
+		width: 130px;
+		margin-top: 35px;
+		text-align: center;
+	}
 
-		}
-		.update-section__date{
-			display: flex;
-			align-items: center;
-			padding-left: 250px;	
-		}
-		.update-section__system{
-			margin-right: 10px;
-			height: 15px;
-			width: 130px;
-			margin-top: 35px;
-			text-align: center;
-		}
+	.update-section__title {
+		font-size: 10px;
+	}
 
-		.update-section__title{
-			font-size: 10px;	
-		}
-
-		.main-container {
-			width: 450px;
+	.main-container {
+		width: 450px;
 		margin-left: 160px;
-		}
-		.title-section__title{
-text-align: left;
-font-size: 25px;
-		}
+	}
+	.title-section__title {
+		text-align: left;
+		font-size: 25px;
+	}
 
-		.title-section__paragraph{
-			margin-top: -25px;
-			padding-top: 10px;
-		}
-		.subtitle-section__title{
-			font-size: 25px;
-			margin-top: -5px;
-		}
-	
-		.slider .slider-items{
-			padding-top: 40px;
-			margin-left: -10px;
-		}
-		
-		.slider-items img {
+	.title-section__paragraph {
+		margin-top: -25px;
+		padding-top: 10px;
+	}
+	.subtitle-section__title {
+		font-size: 25px;
+		margin-top: -5px;
+	}
+
+	.slider .slider-items {
+		padding-top: 40px;
+		margin-left: -10px;
+	}
+
+	.slider-items img {
 		width: 450px;
 		margin: 0 auto;
 	}
-		.slider__prev, 
-		.slider__next{
-			margin-top: -120px;
-		}
-		.slider__prev{
-					margin-left: 10px;
-				}
+	.slider__prev,
+	.slider__next {
+		margin-top: -120px;
+	}
+	.slider__prev {
+		margin-left: 10px;
+	}
 
-				.slider__next{
-					margin-right: 10px;
-				}
+	.slider__next {
+		margin-right: 10px;
+	}
 
-.text-container {
-	position: relative;
-}
+	.text-container {
+		position: relative;
+	}
 
-.text-container__quotes {
-	position: absolute;
-	top: -45%;
-	left: 2%;
-	width: 132px;
-}
-.text-container__text {
-	width: 450px;
-}
-				.text-container__black-block{
-					font-size: 28px;
-				}
+	.text-container__quotes {
+		position: absolute;
+		top: -45%;
+		left: 2%;
+		width: 132px;
+	}
+	.text-container__text {
+		width: 450px;
+	}
+	.text-container__black-block {
+		font-size: 28px;
+	}
 
-				.subtitle-section__list{
-			width: 450px;
-					margin-top: -10px;
-				}
+	.subtitle-section__list {
+		width: 450px;
+		margin-top: -10px;
+	}
 	.footer__container {
 		width: 450px;
 		display: flex;
@@ -750,12 +745,12 @@ font-size: 25px;
 	.footer__address {
 		margin-left: 100px;
 	}
-	.footer__title{
+	.footer__title {
 		font-size: 30px;
 	}
-	.footer__link{
-			font-size: 12px;
-}
+	.footer__link {
+		font-size: 12px;
+	}
 	.footer__social-icons {
 		margin-left: -60px;
 	}

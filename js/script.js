@@ -1,21 +1,12 @@
-// Scroll
-function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
-}
-
-window.onload = scrollToTop;
-window.addEventListener("beforeunload", scrollToTop);
-
 // Burger
-let menuBtn = document.querySelector(".header__burger");
-let menu = document.querySelector(".header__menu");
+document.addEventListener("DOMContentLoaded", function () {
+  let menuBtn = document.querySelector(".header__burger");
+  let menu = document.querySelector(".header__menu");
 
-menuBtn.addEventListener("click", function () {
-  menuBtn.classList.toggle("active");
-  menu.classList.toggle("active");
+  menuBtn.addEventListener("click", function () {
+    menuBtn.classList.toggle("active");
+    menu.classList.toggle("active");
+  });
 });
 
 // Date
@@ -38,7 +29,6 @@ updateDate();
 setInterval(updateDate, 24 * 60 * 60 * 1000);
 
 // Slider
-
 let slideIndex = 1;
 slideContent(slideIndex);
 
@@ -82,3 +72,14 @@ function updateStrip() {
   }
   strips[slideIndex - 1].classList.add("active");
 }
+
+// Scroll
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}
+
+window.onload = scrollToTop;
+window.addEventListener("beforeunload", scrollToTop);

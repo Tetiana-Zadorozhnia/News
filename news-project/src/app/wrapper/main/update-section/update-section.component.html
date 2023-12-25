@@ -1,0 +1,11 @@
+<section class="update-section">
+  <article class="update-section__date">
+    <p>{{ today | date : "dd MMMM yyyy" }}</p>
+  </article>
+
+  <article class="update-section__system">
+    <a class="update-section__title" [href]="updateSystem.url">{{
+      updateSystem.label
+    }}</a>
+  </article>
+</section>

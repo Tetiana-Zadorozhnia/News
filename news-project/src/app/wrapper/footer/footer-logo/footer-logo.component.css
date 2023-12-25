@@ -1,0 +1,45 @@
+.footer__logo {
+	margin: 3.7778rem 6.8333rem 4rem 0;
+}
+
+@media screen and (max-width: 1740px) {
+	.footer__logo {
+		margin-left: -20rem;
+	}
+}
+
+@media screen and (max-width: 1360px) {
+	.footer__logo {
+		margin-left: -29rem;
+	}
+}
+@media screen and (max-width: 1280px) {
+	.footer__logo {
+		margin-left: -36rem;
+	}
+}
+
+@media screen and (max-width: 1090px) {
+	.footer__logo {
+		margin-left: -43rem;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.footer__logo {
+		margin-left: -43rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.footer__logo {
+		margin-top: -0.2rem;
+		margin-left: -55rem;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.footer__logo {
+		margin-top: 14rem;
+		margin-left: -57rem;
+	}
+}

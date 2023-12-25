@@ -1,0 +1,11 @@
+<ul class="subtitle-section__list">
+  <li
+    class="subtitle-section-item"
+    *ngFor="let item of items"
+    [ngStyle]="{
+      'background-image': 'url(../assets/images/circle_violet.png)'
+    }"
+  >
+    {{ item.text }}
+  </li>
+</ul>

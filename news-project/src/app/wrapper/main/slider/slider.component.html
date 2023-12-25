@@ -1,0 +1,21 @@
+<div class="slider">
+  <div class="slider-items" *ngFor="let image of images; let i = index" [ngClass]="{'slider-show': i === currentIndex && showSlider, 'slider-hide': i !== currentIndex || !showSlider}">
+  <img *ngIf="i === currentIndex" [src]="image.src" [alt]="image.alt" />
+</div>
+
+<a class="slider__prev" (click)="prevSlide()">
+  <svg width="70" height="70">
+    <use [attr.href]="prevArrowIconPath"></use>
+  </svg>
+</a>
+
+<a class="slider__next" (click)="nextSlide()">
+  <svg width="70" height="70">
+    <use [attr.href]="nextArrowIconPath"></use>
+  </svg>
+</a>
+
+<div class="slider__strips">
+  <span *ngFor="let image of images; let i = index" class="strip" (click)="goToSlide(i)" [class.active]="i === currentIndex"></span>
+</div>
+</div>

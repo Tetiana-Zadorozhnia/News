@@ -1,0 +1,23 @@
+<div class="header__logo">
+  <nav class="header__nav">
+    <ul class="header__menu" [class.active]="showBurgerMenu">
+      <li *ngFor="let link of links">
+        <a class="header__link" [href]="link.url">{{ link.label }}</a>
+      </li>
+    </ul>
+  </nav>
+
+  <button
+    class="header__burger active"
+    type="button"
+    (click)="toggleBurgerMenu()"
+  >
+    <svg width="40" height="40">
+      <use [attr.href]="burgerPath"></use>
+    </svg>
+  </button>
+
+  <a class="header__logo-text" href="/">
+    <img [src]="logoUrl" alt="Logo" />
+  </a>
+</div>

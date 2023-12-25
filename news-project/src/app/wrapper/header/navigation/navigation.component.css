@@ -1,0 +1,268 @@
+ .header__menu-container {
+   width: 100%; 
+	height: 6.1111rem; 
+	padding: 2.3889rem 2.3889rem 2.3889rem 2.7778rem;
+	border-radius: 4.2778rem;
+	background-color: #ffffff;
+	font-weight: 500;
+	line-height: 1.3;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__menu {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 2.7778rem;
+	width: 30rem;
+	list-style: none;
+	color: inherit;
+}
+
+.header__menu.active {
+	background-color: transparent;
+}
+
+.header__link {
+	 width: 100%;	
+	 min-width: 4.1rem;
+    display: block;
+	transition: color 0.3s;
+	text-decoration: none; 
+	color: inherit;
+}
+
+.header__link:hover {
+	color: #ffd364;
+	font-weight: 700;
+}
+
+.header__social-account {
+	display: flex;
+	padding-left: 11.5rem;
+}
+
+.header__icons-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.8889rem;
+	list-style: none;
+}
+
+.header__account {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header__user-link {
+	padding-left: 2.2222rem;
+}
+
+.header__user-login {
+	padding-left: 1.0661rem;
+	font-weight: 500;
+	line-height: 1.3;
+	color: inherit;
+	text-decoration: none;
+}
+
+
+@media screen and (max-width: 1740px) {
+	.header__menu-container {
+		width:47rem;
+		padding: 2.3889rem 0.5rem;
+	}
+
+	.header__user-link {
+		/* padding-left: 1.1111rem; */
+	}
+
+	/* .header__menu {
+		display: flex;
+		gap: 1.1111rem;
+	} */
+
+	/* .header__social-account {
+padding-right: 1rem;
+	} */
+
+	.header__menu{
+		padding-left: 1.5rem;
+			gap: 0.8rem;
+	}
+	.header__icons-list {
+margin-left: -16rem;
+	padding-right: 1rem;
+}
+.header__account{
+	margin-left: -5rem;
+	padding-right: 7rem;
+}
+}
+
+
+@media screen and (max-width: 1440px) {
+		.header__menu-container {
+		padding: 2.3889rem 1rem 2.3889rem  0.5rem;	
+	 width: 44rem;
+	 display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+		}
+
+	 .header__menu{
+		padding-left: 8rem;
+			gap: 0.8rem;
+	}
+	/*.header__icons-list {
+	padding-right: 0.5rem;
+}*/
+	.header__icons-list {
+margin-left: -8rem;
+	padding-right: 1rem;
+}
+.header__account{
+	/* padding-right: 6rem; */
+	margin-left: -2rem;
+	padding-right: 7rem;
+}
+}
+
+@media screen and (max-width: 1280px) {
+	.header__menu-container {
+      max-width: 20rem;
+		padding: 1rem 1rem;
+	}
+
+	.header__menu {
+  display: none; 
+}
+
+	/* .header__menu.active {
+  display: flex; 
+} */
+	
+	.header__menu .header__link {
+		padding-top: 1rem;
+		padding-left: 2.5889rem;
+	}
+	
+	.header__social-account {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	.header__icons-list{
+padding-left: 3.5rem;
+	}
+}
+
+
+@media screen and (max-width: 1024px) {
+.header__menu-container {
+      width: 18rem;
+}
+}
+/*.....................995px...................... */
+ @media screen and (max-width: 995px) {
+	.header__menu-container {
+		width: 11rem;
+		margin: 0 auto;
+		padding: 1.5rem 1.5rem;
+	}
+
+	.header__social-account {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 0.5rem;
+		margin-left: -6.8rem;
+	}
+
+	.header__menu {
+		position: absolute;
+		top: 6rem;
+		left: 2rem;
+	} 
+} 
+
+@media screen and (max-width: 768px) {
+	.header__menu-container {
+		/* margin-left: 3rem;
+		margin-right: 3.5rem; */
+			min-width: 30rem;
+		margin: 0 auto;
+		padding: 1.5rem 1.5rem;
+	}
+	
+
+	.header__social-account {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		gap: 2rem;
+		margin-left: -2rem;
+	}
+}
+
+
+@media screen and (max-width: 570px) {
+	.header__menu-container {
+		min-width: 22rem;
+		padding: 1rem 0.5rem;
+	}
+
+	.header__menu {
+		position: absolute;
+		left: 3rem;
+		top: 5.5rem;
+	}
+}
+
+
+@media screen and (max-width: 425px) {
+	/* .header__menu-container {
+		margin: 0 auto;
+	} */
+
+	.header__menu-container {
+		min-width: 17rem;
+		/* margin-left: -3rem;
+		margin-right: -3rem; */
+		display: flex;
+		justify-content: center;
+	}
+
+	.header__social-account {
+		display: flex;
+		gap: 0.1rem;
+	}
+	.header__icons-list{
+margin-left: -6rem;
+	}
+
+
+}
+
+
+@media screen and (max-width: 375px) {
+	.header__menu-container {		
+		min-width: 16.5rem;
+		padding: 1rem 1.5rem;
+
+		display: flex;
+		justify-content: center;
+	}
+	.header__social-account{
+margin-left: -3rem;
+	}
+}
+@media screen and (max-width: 320px) {
+
+}

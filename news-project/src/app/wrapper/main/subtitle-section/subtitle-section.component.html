@@ -1,0 +1,18 @@
+<section class="subtitle-section">
+  <h2 class="subtitle-section__title">{{ subTitle1.label }}</h2>
+
+  <p class="title-section__paragraph">{{ paragraph.text }}</p>
+
+  <p class="subtitle-section__violet-block">{{ violetBlock.text }}</p>
+
+  <p
+    class="title-section__paragraph"
+    *ngFor="let accent of blackAccent; let i = index">
+    <span class="subtitle-section__black-accent">{{ accent.text }} </span
+    >{{ dynamicTexts[i].text }}
+  </p>
+
+  <h2 class="subtitle-section__title">{{ subTitle2.label }}</h2>
+
+  <p class="title-section__paragraph">{{ dynamicParagraph.text }}</p>
+</section>
